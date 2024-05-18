@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="level-3.css">
+        <title>Typing Blocks</title>
+    </head>
+
+    <body>
+        <div class="main-container">
+
+            <div class="background"> <!--background img-->
+                <img src="lvl3 background.png" width="100%">
+            </div>
+
+            <div class="loading" id="loading"></div> <!--loading-->
+
+            <div class="shortNote" id="shortNote"><!--shortnote-->
+                <p>WARNING : THIS LEVEL IS CONFUSING</p>
+            </div>
+
+            <div class="back-button"> <!--back button-->
+                <a href="../Level Container/level.html">
+                    <img src="lvl3 back.png" width="90px">
+                </a>
+            </div>
+
+            <div class="timer" id="timer">01:30</div> <!--timer-->
+
+            <div class="gContainer"> <!--final game-container-->
+                <div class="game-container1" id="game-container1"></div>
+                <div class="game-container2" id="game-container2"></div>
+                <div class="game-container3" id="game-container3"></div>
+                <div class="game-container4" id="game-container4"></div>
+                <div class="game-container5" id="game-container5"></div>
+                <div class="game-container6" id="game-container6"></div>
+                <div class="game-container7" id="game-container7"></div>
+                <div class="game-container8" id="game-container8"></div>
+                <div class="game-container9" id="game-container9"></div>
+                <div class="game-over" id="game-over"><h1>GAME-OVER</h1></div>
+                <div class="congratulations" id="congratulations"><h1>CONGRATULATIONS!!</h1>
+                    <p class="shortW" id="shortW">You passed this confusing level, and you improved by 60%.</p>
+                    <p class="shortP" id="shortP">Click the <b>button</b> to play the next level.</p>
+                </div>
+                <div class="nextButton" id="nextButton">
+                    <a href="/background/level-4/level-4.html">
+                        <button class="nextLevel">NEXT LEVEL</button>
+                    </a>
+                </div>
+            </div>
+
+            <button class="retry" id="retryButton" onclick="restartGame()">Retry</button> <!--retry button-->
+
+        </div>
+    </body>
+    <script src="level-3.js"></script>
+</html>

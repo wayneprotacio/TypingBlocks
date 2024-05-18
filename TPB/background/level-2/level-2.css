@@ -1,0 +1,248 @@
+body, html{
+    margin:0;
+}
+.hidden{
+    display: none;
+}
+.back-button{
+    margin-top:-735px;
+    margin-left: 7px;
+}
+.back-button:hover{
+    opacity:0.7;
+}
+.img{
+    background-image: url("lvl2 background.png");
+    background-size: cover;
+}
+.firstload{
+    border: 16px solid aqua;
+    border-radius: 50%;
+    border-top: 16px solid dodgerblue;
+    width: 100px;
+    height: 100px;
+    animation: loader 2s linear infinite;
+    margin-left: 610px;
+    margin-top: -500px;
+    padding: 0;
+}
+@keyframes loader{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.howTo{
+    display: none;
+    margin-left: 340px;
+    margin-top: 20px;
+}
+.guide{
+    display: none;
+    margin-left: 340px;
+    margin-top: 20px;
+}
+.start{
+    display: none;
+    width: 150px;
+    height: 30px;
+    margin-left: 599px;
+    outline: none;
+    background-color: dodgerblue;
+    color: rgb(0, 255, 242);
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    font-size: small;
+    font-weight: 700;
+    font-family: verdana;
+}
+.start:hover{
+    width: 170px;
+    margin-left: 590px;
+    background-color: rgb(96, 190, 244);
+    color: #022e70;
+}
+.next{
+    width: 150px;
+    height: 30px;
+    margin-left: 599px;
+    outline: none;
+    background-color: dodgerblue;
+    color: rgb(0, 255, 242);
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    font-size: small;
+    font-weight: 700;
+    font-family: verdana;
+}
+.next:hover{
+    width: 170px;
+    margin-left: 590px;
+    background-color: rgb(96, 190, 244);
+    color: #022e70;
+}
+.loading{
+    display: none;
+    background-color: rgb(0, 225, 255);
+    margin-left: 366px;
+    margin-top: 390px;
+    width: 611px;
+    height: 18px;
+    z-index: 1;
+    border-radius: 10px;
+    animation: load 7s ease-in-out;
+}
+@keyframes load{
+    from{width: 0px;}
+    to{width: 611px;}
+}
+.guide{
+    margin-left: 340px;
+    margin-top: 20px;
+    z-index: 0;
+    display: none;
+}
+.howTo, .loading{
+    position: absolute;
+}
+.guideLoad{
+    position: relative;
+}
+.game-containerOne{
+    margin-left: 355px;
+    margin-top: 150px;
+    display: none;
+}
+.game-containerTwo{
+    margin-left: 355px;
+    margin-top: 150px;
+    display: none;
+}
+input{
+    color: dodgerblue;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 10px; 
+    width: 185px;
+    text-align: center;
+    border: 2px solid #00627a;
+    outline: none;
+}
+input.correct{
+    border: 2px solid #0098be;
+} 
+.timer{
+    display: none;
+    margin-left: 620px;
+    margin-top: -50px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: verdana;
+    color: #0098be;
+}
+.gContainer{
+    margin-left: 100px;
+}
+.game-containerTwo{
+    margin-left: 155px;
+    margin-top: 150px;
+}
+.game-container3{
+    margin-top: 150px;
+}
+.game-container4{
+    margin-top: 150px;
+}
+.game-container5{
+    margin-top: 150px;
+}
+.game-container6{
+    margin-top: 150px;
+}
+.game-container7{
+    margin-top: 150px;
+}
+.game-container8{
+    margin-top: 150px;
+}
+.game-container9{
+    margin-top: 150px;
+}
+.game-container10{
+    margin-top: 150px;
+}
+.game-over{
+    display: none;
+    font-family: verdana;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #0098be;
+    margin-left: 350px;
+    margin-top: 159px;
+}
+.congratulations{
+    margin-left: 180px;
+    margin-top: 115px;
+    font-family: verdana;
+    font-size: xx-large;
+    color: #022e70;
+    display: none;
+}
+.nextButton{
+    margin-left: 475px;
+    display: none;
+}
+.nextLevel{
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: dodgerblue;
+    font-size: medium;
+    font-weight: 900;
+    color: #022e70;
+}
+.nextButton:hover{
+    opacity:0.8;
+}
+.shortW{
+    display: none;
+    font-family: verdana;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -40px;
+    color: #022e70;
+}
+.shortP{
+    display: none;
+    font-family: verdana;
+    font-size: 18px;
+    margin-left: 230px;
+    margin-top: -15px;
+    color: #022e70;
+}
+.retry{
+    display: none;
+    width: 150px;
+    height: 30px;
+    margin-left: 599px;
+    background-color: dodgerblue;
+    color: rgb(0, 255, 242);
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    font-size: small;
+    font-weight: 700;
+    font-family: verdana;
+}
+.retry:hover{
+    width: 170px;
+    margin-left: 590px;
+    background-color: rgb(96, 190, 244);
+    color: dodgerblue;
+}

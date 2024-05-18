@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background-image: url("TPB\ background.png");
+    background-attachment: fixed;
+}
+.back a span{
+    margin-left: 5px;
+    margin-top: -90px;
+    padding: 14px;
+    font-family: tahoma;
+    font-size: xx-large;
+    font-weight: bold;
+    color: peru;
+    text-decoration: none;
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px;
+    position: fixed;
+}
+.back:hover{
+    opacity: 0.8;
+}
+nav{
+    margin-bottom: 110px;
+}
+h1{
+    margin-left: 180px;
+    margin-top: -90px;
+    padding: 15px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: xx-large;
+    font-family: verdana;
+    color: peru;
+    background-color: whitesmoke;
+    width: 340px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px;
+    position: fixed;
+    top: center;
+    z-index: 2;
+    display: inline-block;
+}
+.game-1{
+    height: 400px;
+    width: 750px;
+    background-color: papayawhip;
+    margin-left: 300px;
+    margin-top: 60px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px;
+    opacity: 0.8;
+}
+.game-4{
+    height: 455px;
+    width: 750px;
+    background-color: papayawhip;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px;
+    opacity: 0.8;
+}
+.h4{
+    padding: 10px;
+}
+.game-5{
+    height: 400px;
+    width: 750px;
+    background-color: papayawhip;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px;
+    opacity: 0.8;
+}
+.tips{
+    margin-left: 335px;
+    color: peru;
+    padding-bottom: 10px;
+}
+p{
+    padding-top: 20px;
+    margin: 0px;
+    font-family: arial;
+    font-size: large;
+    margin-left: 10px;
+    color: black;
+}
+.tips-box{
+    height: 400px;
+    width: 750px;
+    background-color: ghostwhite;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px;
+    opacity: 0.8;
+}
+.tip{
+    padding: 2px;
+}
+.head{
+    margin-left: 325px;
+    padding-top: 5px;
+    font-family: verdana;
+}
+.head4{
+    margin-left: 325px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: verdana;
+}
+.head5{
+    margin-left: 325px;
+    padding-top: 5px;
+    font-family: verdana;
+}

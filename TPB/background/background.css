@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-image: url("TPB\ background.png");
+    background-size: cover;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.homePageLogo{
+    margin-top: -750px;
+    margin-left: 412px;
+    margin-bottom: 420px;
+    width: 500px;
+}
+.logo{
+    width: 100px;
+    margin-top: -500px;
+}
+.play-button{
+    width: 250px;
+    margin-top: -385px;
+    margin-left: 540px;
+    transition-timing-function: ease;
+}
+.play-button:active{
+    margin-left: 545px; 
+    width: 240px;
+}
+.play-button:hover{
+    opacity: 0.8;
+}
+.knowledge{
+    width: 210px;
+    margin-top: 15px;
+    margin-left: 560px;
+    transition-timing-function: ease;
+}
+.knowledge:active{
+    margin-left: 565px; 
+    width: 195px;
+}
+.knowledge:hover{
+    opacity: 0.8;
+}
+.aboutButton{
+    width: 180px;
+    margin-top: 15px;
+    margin-left: 575px;
+    transition-timing-function: ease;
+}
+.aboutButton:active{
+    margin-left: 580px; 
+    width: 170px;
+}
+.aboutButton:hover{
+    opacity: 0.8;
+}

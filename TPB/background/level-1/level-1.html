@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="level-1.css">
+        <title>Typing Blocks</title>
+    </head>
+
+    <body>
+        <div class="main-container">
+
+            <div class="img"> <!--background-->
+                <img src="background.png" width="100%">
+            </div>
+
+            <div class="firstLoading" id="firstLoading"></div> <!--unang 'loading' na lalabas bago lumalabas ang 'how to play' img-->
+
+            <div class="back-button" id="back-button"> <!--back button-->
+                <a href="../Level Container/level.html">
+                    <img src="red-back button.png" width="90px"> <!--img-->
+                </a>
+            </div>
+
+            <div class="loader" id="loader"></div> <!--pangalawang 'loading' na lalabas kasabay ng unang guide-->
+
+            <div class="noteHowtoplay" id="noteHowtoplay"> <!--note & how to play img-->
+
+                <p class="shortNote" id="shortNote">By clicking this button, we expect that you're ready to play our game. Enjoy!!</p>
+
+                <div class="how" id="how"> <!--how to play image-->
+                    <img src="how to play.png"> <!--img-->
+                </div>
+                
+            </div>
+
+            <div class="loadingAndGuide"> <!--loading & guide-->
+
+                <div class="guideLoading" id="guideLoading"></div> <!--guide loading-->
+
+                <div class="guide1" id="guide1"> <!--first guide-->
+                    <img src="GUIDE-1.png"> <!--img-->
+                </div>
+            </div>
+
+            <div class="game-containerOne" id="game-containerOne"></div> <!--game-container one-->
+
+            <div class="timer" id="timer">01:20</div> <!--timer-->
+
+            <div class="gContainer" id="gContainer"> <!--another game container for the final part of the game-->
+                <div class="game-containerTwo" id="game-containerTwo"></div> <!--game-container two-->
+                <div class="game-container3" id="game-container3"></div>
+                <div class="game-container4" id="game-container4"></div>
+                <div class="game-container5" id="game-container5"></div>
+                <div class="game-container6" id="game-container6"></div>
+                <div class="game-container7" id="game-container7"></div>
+                <div class="game-container8" id="game-container8"></div>
+                <div class="game-container9" id="game-container9"></div>
+                <div class="game-container10" id="game-container10"></div>
+                <div class="game-over" id="game-over"><h1>GAME-OVER</h1></div>
+                <div class="congratulations" id="congratulations"><h1>CONGRATULATIONS!!</h1>
+                    <p class="shortW" id="shortW">Your typing speed and accuracy improved by 20%.</p>
+                    <p class="shortP" id="shortP">Click the <b>button</b> to play the next level.</p>
+                </div>
+
+                <div class="nextButton" id="nextButton">
+                    <a href="/background/level-2/level-2.html">
+                        <button class="nextLevel">NEXT LEVEL</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="skip" id="skip" onclick="skip()">TRY IT!</button> <!--Try button-->
+                <button class="next" id="next" onclick="next()">NEXT</button> <!--NEXT-->
+                <button class="retry" id="retryButton" onclick="restartGame()">Retry</button> <!--retry button-->
+            </div>
+
+        </div> 
+    </body>
+    <script src="level.js"></script>
+</html>

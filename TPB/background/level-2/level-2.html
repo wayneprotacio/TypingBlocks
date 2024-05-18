@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="level-2.css">
+        <title>Typing Blocks</title>
+    </head>
+
+    <body>
+        <div class="main-container">
+
+            <div class="img"> <!--background-->
+                <img src="lvl2 background.png" width="100%">
+            </div>
+
+            <div class="firstload" id="firstload"></div> <!--first loading-->
+
+            <div class="back-button"> <!--back button-->
+                <a href="../Level Container/level.html">
+                    <img src="lvl2 back.png" width="90px">
+                </a>
+            </div>
+
+            <div class="guide" id="guide"> <!--guide-->
+                <img src="guide level2.png">
+            </div>
+
+            <div class="guideLoad"> <!--guide and loading here-->
+                <div class="loading" id="loading"></div> <!--loading-->
+                <div class="howTo" id="howTo"> <!--how to play guide-->
+                    <img src="How to type.png">
+                </div>
+            </div>
+
+            <div class="game-containerOne" id="game-containerOne"></div>
+            
+            <div class="timer" id="timer">00:50</div> <!--timer-->
+
+            <div class="gContainer"> <!--final game-container-->
+                <div class="game-containerTwo" id="game-containerTwo"></div> <!--game-container two-->
+                <div class="game-container3" id="game-container3"></div>
+                <div class="game-container4" id="game-container4"></div>
+                <div class="game-container5" id="game-container5"></div>
+                <div class="game-container6" id="game-container6"></div>
+                <div class="game-container7" id="game-container7"></div>
+                <div class="game-container8" id="game-container8"></div>
+                <div class="game-container9" id="game-container9"></div>
+                <div class="game-container10" id="game-container10"></div>
+                <div class="game-over" id="game-over"><h1>GAME-OVER</h1></div>
+                <div class="congratulations" id="congratulations"><h1>CONGRATULATIONS!!</h1>
+                    <p class="shortW" id="shortW">Your typing speed, accuracy, and familiarization improved by 40%.</p>
+                    <p class="shortP" id="shortP">Click the <b>button</b> to play the next level.</p>
+                </div>
+                <div class="nextButton" id="nextButton">
+                    <a href="/background/level-3/level-3.html">
+                        <button class="nextLevel">NEXT LEVEL</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="buttons"> <!--buttons-->
+                <button class="next" id="next" onclick="next()">TRY IT!</button> <!--try it button-->
+                <button class="start" id="start" onclick="start()">START</button> <!--start button-->
+                <button class="retry" id="retryButton" onclick="restartGame()">Retry</button> <!--retry button-->
+            </div>
+            
+        </div>
+    </body>
+    <script src="level-2.js"></script>
+</html>

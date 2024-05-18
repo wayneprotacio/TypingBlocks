@@ -1,0 +1,107 @@
+*{
+    margin:0;
+}
+img{
+    height:100%;
+    width:100%;
+}
+.background{
+    background-image: url("2nd-TPB-BG-LOGO.png");
+    background-size: cover;
+}
+.level-container{
+    width:785px;
+    padding-top:40px;
+    margin-left:284px;
+}
+.back-button{
+    width:90px;
+    margin-top:-737px;
+}
+.back-button{
+    opacity: 1;
+    transition:opacity .1s;
+}
+.back-button:hover{
+    opacity: 0.9;
+}
+.level-1{
+    width: 75px;
+    margin-top: -230px;
+    margin-left: 55px;
+}
+.level-1{
+    opacity: 1;
+    transition:opacity .1s;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.level-1:hover{
+    opacity: 0.7;
+    transform: translateY(-10px);
+}
+.level-2{
+    width: 90px;
+    margin-top: -145px;
+    margin-left: 165px;
+}
+.level-2{
+    opacity: 1;
+    transition:opacity .1s;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.level-2:hover{
+    opacity: 0.7;
+    transform: translateY(-10px);
+}
+.level-3{
+    width: 105px;
+    margin-top: -168px;
+    margin-left: 300px;
+}
+.level-3{
+    opacity: 1;
+    transition:opacity .1s;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.level-3:hover{
+    opacity: 0.7;
+    transform: translateY(-10px);
+}
+.level-4{
+    width: 120px;
+    margin-top: -190px;
+    margin-left: 440px;
+}
+.level-4{
+    opacity: 1;
+    transition:opacity .1s;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.level-4:hover{
+    opacity: 0.7;
+    transform: translateY(-10px);
+}
+.level-5{
+    width: 140px;
+    margin-top: -222px;
+    margin-left: 600px;
+}
+.level-5{
+    opacity: 1;
+    transition:opacity .1s;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.level-5:hover{
+    opacity: 0.7;
+    transform: translateY(-10px);
+}
